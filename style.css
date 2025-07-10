@@ -95,7 +95,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
+    padding: 10px 40px;
   }
 
   .menu-toggle {
@@ -382,24 +382,24 @@ main
 
     @media (max-width: 768px) {
       .fsec {
+        margin-top: 3px;
         flex-direction: column;
         text-align: center;
       }
 
-      .lsec {
-        width: 80%;
+      main .lsec {
+        width:60%;
+        font-size: 1.6rem;
         margin-bottom: 30px;
       }
 
-      nav {
-        flex-direction: column;
-        height: auto;
-        padding: 10px 0;
-      }
-
-      nav ul {
-        flex-direction: column;
-        gap: 10px;
+      .social-icons-home {
+        margin-top: 0px;
+        display: flex;
+        gap: 20px;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
       }
 
       .about-container, .skills-container {
