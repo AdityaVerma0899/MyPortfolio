@@ -73,3 +73,19 @@ document.getElementById('contact-form').addEventListener('submit', function (e) 
     this.reset();
   }, 1000);
 });
+
+
+document.addEventListener("DOMContentLoaded", function () {
+  const aboutText = document.getElementById("about-text");
+  const readMoreBtn = document.getElementById("read-more-btn");
+
+  readMoreBtn.addEventListener("click", function () {
+    if (aboutText.classList.contains("collapsed")) {
+      aboutText.classList.remove("collapsed");
+      readMoreBtn.textContent = "Show Less";
+    } else {
+      aboutText.classList.add("collapsed");
+      readMoreBtn.textContent = "Read More";
+    }
+  });
+});
