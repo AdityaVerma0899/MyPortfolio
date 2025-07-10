@@ -127,7 +127,7 @@
       flex-wrap: wrap;
       margin: 140px 0;
     }
-main.lsec {
+main .lsec {
       width: 40%;
       font-size: 3rem;
     }
@@ -426,7 +426,7 @@ main.lsec {
       }
 
       main .lsec {
-        width:60%;
+        width:70%;
         font-size: 1.6rem;
         margin-bottom: 30px;
       }
